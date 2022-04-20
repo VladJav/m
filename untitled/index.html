@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "main">
+        <form class="form" action="" onsubmit="return false;">
+            <input id = "inp" class="values" readonly type="text"  value="">
+            <div class="buttonContainer">
+                <button onclick="addCalculatorElements(this.innerText)" class = "calculateButton">%</button>
+                <button onclick="operation(this.innerText)"  class = "calculateButton">CE</button>
+                <button onclick="operation(this.innerText)" class = "calculateButton">C</button>
+                <button onclick="operation(this.innerText)" class = "calculateButton">Backspace</button>
+                <button onclick="addCalculatorElements(this.innerText)" class = "calculateButton">7</button>
+                <button onclick="addCalculatorElements(this.innerText)" class = "calculateButton">8</button>
+                <button onclick="addCalculatorElements(this.innerText)" class = "calculateButton">9</button>
+                <button onclick="operation(this.innerText)" class = "calculateButton">x</button>
+                <button onclick="addCalculatorElements(this.innerText)" class = "calculateButton">4</button>
+                <button onclick="addCalculatorElements(this.innerText)" class = "calculateButton">5</button>
+                <button onclick="addCalculatorElements(this.innerText)" class = "calculateButton">6</button>
+                <button onclick="operation(this.innerText)" class = "calculateButton">-</button>
+                <button onclick="addCalculatorElements(this.innerText)" class = "calculateButton">1</button>
+                <button onclick="addCalculatorElements(this.innerText)" class = "calculateButton">2</button>
+                <button onclick="addCalculatorElements(this.innerText)" class = "calculateButton">3</button>
+                <button onclick="operation(this.innerText)" class = "calculateButton">+</button>
+                <button onclick="operation(this.innerText)" class = "calculateButton">/</button>
+                <button onclick="addCalculatorElements(this.innerText)" class = "calculateButton">0</button>
+                <button onclick="addCalculatorElements(this.innerText)" class = "calculateButton">.</button>
+                <button onclick="calculate(this.innerText)" class = "calculateButton lastButton">=</button>
+            </div>
+
+        </form>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
